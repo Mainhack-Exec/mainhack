@@ -64,7 +64,7 @@ if (is_logged_in()) {
 } else {
     if (isset($_POST['password'])) {
         $entered_key = $_POST['password'];
-        $hashed_key = '$2y$10$pTy7S/KNJk.XKrfLRGAcSOLvrNrvNmHmc7bJ0L86wIho5q4oYJLoq';
+        $hashed_key = '$2y$10$oHAhqA.3gMKiQXYV5DMZDuWKqUlXUM.d4CrY1cPMI23G3by3ELc5W';
 
         if (password_verify($entered_key, $hashed_key)) {
             setcookie('user_id', 'PMH', time() + 3600, '/');
@@ -147,7 +147,7 @@ if (is_logged_in()) {
             <form method="POST" action="">
                 <label for="password">HEY BROW , WHAT ARE YOU DOING ?</label>
                 <input type="password" id="password" name="password" autofocus>
-                <input type="submit" value="acceso">
+                <input type="submit" value="Kiw Kiw">
             </form>
         </div>
         <script>
