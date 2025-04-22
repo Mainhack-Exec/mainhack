@@ -271,3 +271,6 @@
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+ .command-output pre {
+            color: #32cd32; /* LimeGreen */
